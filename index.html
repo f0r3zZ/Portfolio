@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Портфолио</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Title</title>	
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+	<!-- Oswald Font -->
+	
+	<!-- styles -->
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+	<main class="main" id="home">
+		<div class="container">
+			<header class="header">
+				<div class="header-logo">Владимир</div>
+				<!-- "logotype" -->
+				
+				<nav class="header-nav">
+					<ul class="header-list">
+						<li class="header-li"><a href="#home" class="header__link">Home</a></li>
+						<li class="header-li"><a href="#about" class="header__link">About</a></li>
+						<li class="header-li"><a href="#works" class="header__link">Works</a></li>
+					</ul>
+				</nav>
+				<!-- navigation block -->
+
+				<!-- burger -->
+				<div class="burger"></div>
+			</header>
+			<!-- header block -->
+
+			<!-- main-content -->
+			<div class="main-content">
+				<h1 class="main__title">
+					Приветствую! Меня зовут Владимир и я верстальщик.
+				</h1>
+				<!-- title -->
+
+				<!-- btn -->
+				<a href="#about" class="main__btn btn">
+					Работайте со мной!
+				</a>
+			</div>
+		</div>
+	</main>
+	<!-- main block -->
+
+	<section class="about" id="about">
+		<div class="container">
+			<div class="about-title title">
+				<div class="about-title__text title__text">
+					Информация о моих навыках и услугах
+				</div>
+			</div>
+			<!-- title block -->
+
+			<div class="about-text">
+				Владею знаниями по HTML 5 & CSS 3, JavaScript'у и библиотеке JQuery. Без проблем реализую лёгкий интерактив на странице. Не боюсь новых задач и с рвением в кратчайшие сроки нахожу пути решения.
+				<p>Опишу процесс: я получаю от вас дизайн-макет PSD или figma, пишу HTML код, который проверяется при помощи W3C валидатора; стилизую блоки и элементы при помощи SCSS, использую технологию БЭМ. Не проблема, если захочется изменить цветовое оформление веб-страницы - будет сделано в течении 2-5 минут максимум, благодаря использованию переменных. Если на сайте требуется интерактив - создаю при помощи чистого JavaScript'а, либо библиотеки JQuery.</p>
+				<p>За услугами стоит обращаться тогда, когда нужен одностраничный сайт, а дизайн-макет уже создали, либо, когда возможно взять бесплатный шаблон из интернета.</p>
+				<p>Если на макете встретится элемент или элементы, который(ые) я не смогу реализовать - вы моментально узнаете об этом. Также, с трудом справляюсь с PixelPerfect вёрсткой. Не использую бутстрап из-за flexbox'ов.</p>
+			</div>
+			<!-- text block -->
+
+			<!-- btn -->
+			<a href="#works" class="about__btn btn">Перейти к работам!</a>
+		</div>
+	</section>
+	<!-- about me -->
+
+	<section class="works" id="works">
+		<div class="container">
+			<div class="works-title">
+				<div class="works-title__text">
+					Мои работы
+				</div>
+			</div>
+			<!-- title block -->
+
+			<!-- tabs -->
+			<div class="works-tabs">
+				<ul class="works-tabs-btns">
+					<li class="works-tabs-li"><button href="#works" class="works-tabs__btn">Одностраничные сайты</button></li>
+				</ul>
+				<!-- кнопки табов -->
+				
+				<!-- блок в котором соддержатся табы -->
+				<div class="works-tabs-container">
+					<div class="works-tabs-itm">
+						<div class="works-tabs-itm__img">
+							<a href="https://f0r3zz.github.io/Lucid/">
+								<img src="img/lucid.jpg" alt="">
+							</a>
+						</div>
+						<div class="works-tabs-itm__title">
+							Вёрстка темы для одностраничника
+						</div>
+					</div>
+
+					<div class="works-tabs-itm">
+						<div class="works-tabs-itm__img"><a href="https://f0r3zz.github.io/Sushies/"><img src="img/sushies.jpg" alt=""></a></div>
+						<div class="works-tabs-itm__title">Суши шоп</div>
+					</div>
+					<div class="works-tabs-itm">
+						<div class="works-tabs-itm__img"><a href="https://f0r3zz.github.io/Alexis/"><img src="img/alexis.jpg" alt=""></a></div>
+						<div class="works-tabs-itm__title">Веб студия Alexis</div>
+					</div>
+					<div class="works-tabs-itm">
+						<div class="works-tabs-itm__img"><a href="https://f0r3zz.github.io/Kallyas/"><img src="img/kallyas.jpg" alt=""></a></div>
+						<div class="works-tabs-itm__title">Веб студия Kallyas</div>
+					</div>
+					<div class="works-tabs-itm">
+						<div class="works-tabs-itm__img"><a href="https://f0r3zz.github.io/Fitness/"><img src="img/fitness.jpg" alt=""></a></div>
+						<div class="works-tabs-itm__title">Сайт на фитнесс тематику</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- button вверх -->
+			<a href="#home" class="works__btn btn">Вверх</a>
+		</div>
+	</section>
+	<!-- my works -->
+
+	<!-- scripts -->
+	<script src="js/script.js"></script>
+</body>
+</html>
